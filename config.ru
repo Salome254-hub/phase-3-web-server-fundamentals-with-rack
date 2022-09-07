@@ -1,5 +1,5 @@
 require 'rack'
-
+require 'pry'
 
 class App
   def call(env)
@@ -16,3 +16,4 @@ class App
 end
 
 run App.new
+
